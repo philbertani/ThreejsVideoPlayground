@@ -1,0 +1,27 @@
+.vidDiv {
+    position:relative; 
+    width: max(20vw, 400px);
+}
+
+video {
+    /* object-fit: cover; */
+
+    margin-top: 1vh;
+    width: 100%;
+
+}
+
+#canvas {
+    position:relative;
+    margin-left: 1vw;
+    width: 80vw;
+    height: 90vh;
+    background-color: blue;
+  
+}
+
+.main { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
